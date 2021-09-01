@@ -1,7 +1,7 @@
 pipeline {
 	environment {
 		registry = "siva1490/github-docker-jenkins"
-		registryCredential = 'dockerhub'
+		registryCredential = 'Dockerhub'
 		dockerImage = ''
 		dockerRunCommand = 'docker run -d -p 8080:8080 -name myapp siva1490/github-docker-jenkins'
 	}
